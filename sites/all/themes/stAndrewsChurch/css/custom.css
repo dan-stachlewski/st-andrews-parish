@@ -1,0 +1,672 @@
+/*
+ NAV MENU CSS LOCATION:
+ ======================
+..\docroot\sites\all\libraries\superfish\style\blue.css
+ */
+
+/*
+ CUSTOM CSS:
+ ===========
+ * Changed the size of the email address in the Parish Details block on the Front Page of the website.
+ */
+
+body h1, body h2, {
+	font-family: 'Open Sans', sans-serif;
+}
+
+span .mailto {
+  font-size: 11px;
+}
+
+#block-superfish-1 li {
+/*background-color: #0D2F7D;*/
+}
+
+/*
+* Added the Separator CSS for the Custom Blocks on the Welcome Page that display the Readings, Pew Sheets, & Weeklky Services.
+*/
+
+hr {
+	border-top: 0px;
+	border-bottom:	1px solid #0F3460;
+}
+
+h1.title {
+	color: #0F3460;
+}
+
+.parish-belief {
+	color: #0F3460;
+}
+
+.grade-header {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.field-item img {
+    float: left;
+    padding-right: 30px;
+}
+
+/*
+START HEADER REGION CSS:
+========================
+ */
+
+/* Header bg Gradient Blue: #0723bf to Dark Blue: #0F3460 */
+#header-wrapper{
+	width: 100%; height:366px;
+	background: #0723bf; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0723bf, #0F3460); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0723bf, #0F3460); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0723bf, #0F3460); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0723bf, #0F3460); /* Standard syntax */
+}
+/* Header bg Image & Image Border */
+#header {
+	background-color: #FF00FF;
+	background-image: url("../assets/church-header-photo-960x360-alt.png");
+	width: 960px; height: 360px;
+	border: 3px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #0723bf 0%, #0F3460 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #0723bf 0%, #0F3460 100%);
+    border-image: linear-gradient(to bottom, #0723bf 0%, #0F3460 100%);
+    border-image-slice: 1;
+	margin: 0px auto;
+}
+
+/* Alt Header CSS
+#header {
+	background-color: #FF00FF;
+	background-image: url("../assets/church-header-photo.png");
+	width: 940px; height: 340px;
+	border: 3px solid #0F3460;
+	margin: 5px auto;
+}
+*/
+
+/* Slogan Font Colour and Position */
+#name-and-slogan {
+	margin-top: -15px;
+	color: #000000; /* Black */
+	/*background-color: #000000;
+	opacity: 0.4;
+	font-weight: bold;*/
+}
+
+/* Website Main Heading w Link */
+#name-and-slogan a {
+	font-weight: bold;
+	color: #262262;
+}
+
+/* Slogan Position and Font Size */
+#site-slogan {
+	margin-left: -25px;
+	font-size: 0.99em;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+}
+
+/* Website Main Heading Font CSS */
+#site-name {
+	margin-left: -25px;
+	font-size: 1.8em;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Main Nav Menu Position code */
+#block-superfish-1 {
+	width: 960px;
+	/*margin-top: 10px;*/
+	margin-left: 0px;
+	margin-top: 105px;
+	background-color: #0D2F7D;
+/*	z-index: 1000;
+	position: absolute;*/
+}
+/* This widens the buttons of each Nav Menu button to make it look like each btn has been streched out evenly */
+li.menu-6.first a, li.menu-71.last a, #toboggan-login-link-container a {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.071em;
+}
+
+p  {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+}
+
+h1#page-title.title, h2.parish-belief {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.views-field.views-field-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+span.date-display-single {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.view-footer {
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight: bold;*/
+	color: #0070B3;
+}
+
+/* Not used in the end
+ul.superfish-1 {
+	width: 960px;
+}
+
+.block, .block-superfish, .contextual-links-region {
+	margin: 0px auto;
+}
+
+.region .region-header {
+
+}
+*/
+
+
+/* This CSS positioned the Search Box in the Header Region */
+#block-search-form {
+	/*float: right;*/
+	margin-right: 0px;
+	margin-top: -223px;
+	margin-left: 565px;
+/*background-color: #000;
+	opacity: 0.6;
+	padding-top: 20px;
+	padding-left: 20px;*/
+}
+
+/* Header Region Container that Holds and Stores Main Nav Menu */
+.region-header {
+	width: 960px;
+	margin: 5px auto;
+}
+
+/* This CSS positioned the Login-Register Form/Block */
+#block-user-login {
+	margin-top: -223px;
+	margin-left: 80px;
+}
+/* This affets the width of the Login/Register container size */
+#toboggan-login-link-container {
+width: 105px;
+}
+
+/* Creates an black border around the Search Box (input field) */
+.region-header .form-text {
+border: 1px solid #666666;
+}
+
+.region-header #block-user-login input.form-submit {
+border: 1px solid #666666;
+
+}
+
+
+
+/* Added Class addhoc in the body field of the node - should not have done it  */
+
+
+/*
+END HEADER REGION CSS:
+========================
+ */
+
+/*
+START BLOCK VIEW INCUMBENT PRAYER CSS:
+======================================
+ * LOCATION: sidebar_first;
+ */
+/* This code targets the heading of the block, creates curves on the top of the block and changes the bg-color of the block */
+#block-views-incumbent-prayer-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 168px;
+padding-top: 0px;
+text-align: center;
+/* margin-left: -15px;*/
+}
+
+/* This code targets the heading of the block and creates a cap on the top of the block */
+#block-views-incumbent-prayer-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 208px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+/*padding-top: 15px;*/
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+/* This CSS targets the img in the block */
+#block-views-incumbent-prayer-block img {
+/*margin-left: 45px;*/
+}
+
+/* Used to colour the heading below the candle img in the incumbent block - affected the following text: A prayer at the time of choosing an Incumbent. */
+.incumbent-prayer-sub-header {
+color: #0070b3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+/* This CSS targets the h1's in the block
+#block-views-incumbent-prayer-block h1 {
+margin: 5px auto;
+text-align: center;
+
+}*/
+
+/*
+END BLOCK VIEW INCUMBENT PRAYER CSS:
+======================================
+ */
+
+/*
+START BLOCK PARISH SERVICES CSS:
+======================================
+ * LOCATION: sidebar_second;
+ */
+
+/* This code targets the heading of the block, creates curves on the top of the block and changes the bg-color of the block */
+#block-views-parish-services-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: center;
+}
+
+#block-views-christmas-services-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: center;
+}
+
+/* This code targets the heading of the block and creates a cap on the top of the block */
+#block-views-parish-services-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+#block-views-christmas-services-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+
+/* This CSS affects the Parish Service Day, Date & Time in the Parish Services Block */
+span.date-display-single {
+text-align: center;
+display: inline-block;
+}
+/*
+END BLOCK PARISH SERVICES CSS:
+======================================
+ */
+
+/*
+START BLOCK PARISH CONTACT DETAILS CSS:
+======================================
+ * LOCATION: sidebar_second;
+ */
+
+/* This code targets the heading of the block, creates curves on the top of the block and changes the bg-color of the block */
+#block-views-parish-contact-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 168px;
+padding-top: 0px;
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+font-size: 12px;
+}
+
+/* Adjust the email address so it shows up on the same line - Parish Contact Details Block */
+.adr .email span a {
+	width: 220px;
+	float: left;
+	margin-left: -25px;
+}
+
+/* This code targets the heading of the block and creates a cap on the top of the block */
+#block-views-parish-contact-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 208px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+/*padding-top: 15px;*/
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+/*
+END BLOCK PARISH CONTACT DETAILS CSS:
+======================================
+ */
+
+/*
+START BLOCK TOP 3 PEW SHEETS CSS:
+======================================
+ * LOCATION: sidebar_first;
+ */
+
+/* This code targets the heading of the block, creates curves on the top of the block and changes the bg-color of the block */
+#block-views-top-3-pew-sheets-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: center;
+}
+
+/* This code targets the heading of the block and creates a cap on the top of the block */
+#block-views-top-3-pew-sheets-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+/*
+END BLOCK TOP 3 PEW SHEETS CSS:
+======================================
+ */
+
+/*
+START BLOCK TOP 3 PEW READINGS CSS:
+======================================
+ * LOCATION: sidebar_first;
+ */
+
+/* This code targets the heading of the block, creates curves on the top of the block and changes the bg-color of the block */
+#block-views-top-3-readings-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: center;
+}
+
+/* This code targets the heading of the block and creates a cap on the top of the block */
+#block-views-top-3-readings-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+/*
+END BLOCK TOP 3 PEW READINGS CSS:
+======================================
+ */
+
+/*
+START FOOTER BLOCKS CSS:
+========================
+ */
+
+/* This CSS changes the border radius of the blocks in the footer */
+#block-block-1, #block-webform-client-block-101, #block-masquerade-masquerade, #block-views-ffc1ee63b69fd5ac63c468153fdf0c77, #block-views-fluccs-hosting-logo-block, #block-system-powered-by {
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/* This CSS changes the heading look of the blocks in the footer */
+#block-webform-client-block-101 h2, #block-masquerade-masquerade h2, #block-system-powered-by {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	/*background-color: #FFF;*/
+	line-height: 29.2px;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-top: 0px;
+	color: #0070B3;
+}
+
+
+/* CSS for Region Footer Second Col that holds the Copyright Year and Web Company Name that built the site */
+#block-block-1 h3 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	/*padding-top: -10px;*/
+	line-height: 20px;
+	/*background-color: #FFF;*/
+	color: #0070B3;
+	text-shadow: 0 1px 0 #000;
+
+}
+
+#block-views-0c350cff57e33b604a8f480c7b1686ab .views-field.views-field-title {
+text-align: center;
+}
+
+
+/*
+END FOOTER BLOCKS CSS:
+======================
+ */
+
+#content {
+	width: 540px;
+}
+
+.section {
+
+}
+
+#sidebar-first .section {
+	padding: 0px;
+
+}
+
+#sidebar-second .section {
+	padding: 0px;
+}
+
+.views-view-grid, .cols-3 {
+	text-align: center;
+}
+
+#block-block-2 {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 168px;
+padding-top: 0px;
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+font-size: 12px;
+}
+
+#block-block-2 h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+#block-block-3 {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: center;
+}
+
+#block-block-3 h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+#block-block-4, #block-block-6, #block-block-7  {
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#block-block-7 h3  {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	/*padding-top: -10px;*/
+	line-height: 20px;
+	/*background-color: #FFF;*/
+	color: #0070B3;
+	text-shadow: 0 1px 0 #000;
+}
+
+#block-block-7 p {
+	text-align: center;
+}
+
+#block-block-7 a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #0070B3;
+}
+
+
+#block-views-edcta-docs-block {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: left;
+font-family: 'Libre Baskerville', serif;
+font-size: 12px;
+}
+
+#block-views-edcta-docs-block h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;
+}
+
+#block-views-0c350cff57e33b604a8f480c7b1686ab {
+background-color: #cce6ff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 170px;
+margin-left: 30px;
+padding-top: 0px;
+text-align: left;
+font-family: 'Libre Baskerville', serif;
+font-size: 12px;
+}
+
+#block-views-0c350cff57e33b604a8f480c7b1686ab h2 {
+background-color: #0D2F7D;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 209px;
+height: 35px;
+line-height: 35px;
+margin-left: -20px;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #000;
+text-align: center;	
+}
